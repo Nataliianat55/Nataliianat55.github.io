@@ -241,3 +241,31 @@ body {
 .site-footer {
   border-color: #d9cec1;
 }
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 20px;
+}
+
+.brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  color: #1f1a17;
+}
+
+.main-nav {
+  display: flex;
+  gap: 22px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #1f1a17;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
+.main-nav a:hover {
+  opacity: 0.65;
+}
