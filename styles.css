@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f6f0;
+  color: #2c2c2c;
+}
+
+header {
+  padding: 20px;
+}
+
+header p {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+}
+
+main {
+  padding: 40px 20px 60px;
+}
+
+section {
+  max-width: 680px;
+}
+
+section p:first-child {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 1.1;
+  margin: 0 0 20px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+a {
+  display: inline-block;
+  padding: 14px 22px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  text-decoration: none;
+  border-radius: 999px;
+  font-size: 16px;
+}
+
+a[href*="wa.me"]:first-of-type {
+  background: #c05e4b;
+  color: white;
+}
+
+a[href*="wa.me"]:last-of-type {
+  border: 1px solid #2c2c2c;
+  color: #2c2c2c;
+}
