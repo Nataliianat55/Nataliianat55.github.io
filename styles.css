@@ -1,8 +1,14 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f9f6f0;
-  color: #2c2c2c;
+  body {
+  font-family: 'Satoshi', sans-serif;
+  background: #f7f1e8;
+  color: #1f1a17;
+}
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.01em;
+}
 }
 
 header {
@@ -174,7 +180,9 @@ a[href*="wa.me"]:last-of-type {
   border: 1px solid #1f1a17;
   text-decoration: none;
   color: #1f1a17;
-  font-size: 15px;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .contact-cta a:hover {
@@ -215,4 +223,21 @@ body {
 .service-list p,
 .about > p:last-child {
   line-height: 1.7;
+}
+.manifesto p,
+.services > p,
+.about > p:first-child,
+.contact-cta p {
+  color: #7a6254;
+}
+
+.about > p:last-child,
+.service-list p,
+.site-footer p {
+  color: #5c5048;
+}
+
+.service-list article,
+.site-footer {
+  border-color: #d9cec1;
 }
